@@ -2,9 +2,14 @@ body{
    padding:10px;
    margin:10px;
    background:linear-gradient(150deg,red, orangered,#C7962D,yellow,lime);
-   background-size:480px 1000px;
+   background-size:2000px 5000px;
    background-repeat:no-repeat;
    
+}
+@media screen and (max-width:480px){
+   body{
+     background-size:480px 1000px;
+   }
 }
 .container{
    width:100%;
