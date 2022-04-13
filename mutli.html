@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Tic Tac Toe</title>
+   <link rel = "stylesheet" href = "style.css">
+</head>
+ 
+<body>
+    <center>
+       <div class = "player-selection">
+          <div class="optHeader">SELECT YOUR WEAPON</div>
+          <select id = "playerOpt">
+             <option value = "X">X</option>
+             <option value = "Y">Y</option>
+          </select>
+          <br><br>
+          <button id = "playerOptSelect">Okay</button>
+       </div>
+       <div class="heading">
+          Tic Tac Toe
+       </div>
+       <table class="game-container">
+          <tr>
+             <td id="0"></td>
+             <td id="1"></td>
+             <td id="2"></td>
+  
+          </tr>
+          <tr>
+             <td id="3"></td>
+             <td id="4"></td>
+             <td id="5"></td>
+          </tr>
+          <tr>
+             <td id="6"></td>
+             <td id="7"></td>
+             <td id="8"></td>
+          </tr>
+       </table>
+       <br>
+       <button onclick="clearBoard()">RESET </button>
+    </center>
+    <script src="multi.js"></script>
+</body>
+
+</html>
